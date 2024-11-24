@@ -1,0 +1,6 @@
+﻿services:
+  nmc:
+    image: nmc
+    build:
+      context: .
+      dockerfile: NMC/Dockerfile
